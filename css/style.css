@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    height: 3000px;
+    margin: 0;
+    background-color: rgba(173, 226, 173, 0.263);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nave {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #edf8ed;
+    box-shadow: rgba(3, 67, 17, 0.322) 0px 4px 12px;
+    top: 0;
+    line-height: 5;
+}
+
+.nave ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+.nave ul li {
+    margin-right: 4rem;
+}
+
+.nave a {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(3, 69, 38);
+    font-weight: bolder;
+    position: relative;
+    
+}
+
+.logo img {
+    margin-top: 22px;
+    margin-left: 10%;
+    width: 160px;
+    transition: all 0.4s ease;
+} 
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+.home {
+    margin-top: 250px;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.home_um {
+    display: flex;
+    justify-content: center;
+}
+
+.home h1 {
+    font-size:72px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(33, 123, 62);
+}
+
+.home h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -30px;
+    font-size:80px;
+    letter-spacing: 8px;
+    color: rgb(33, 123, 62);
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    position: absolute;
+    margin-left: 76%;
+    margin-top: -92px;
+}
+
+.login {
+    margin-top: -50px;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.login:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(14, 112, 38);
+}
+
+.cadastro {
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+
+.cadastro:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(14, 112, 38);
+}
+
+.home {
+    display: flex;
+}
+
+.img_home {
+    margin-top: -120px;
+    width: 480px;
+    transition: all 0.4s ease;
+}
+
+.img_home:hover {
+    transform: scale(0.9);
+}
+
+.para p {
+    font-weight: bold;
+    color: rgb(13, 103, 32);
+    margin-top: -80px;
+    margin-left: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.sobre {
+    height: 900px;
+    margin-top: 120px;
+}
+
+.box_sobre_um {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 199, 97);
+    height: 350px;
+}
+
+.sobre_um {
+    padding-top: 123px !important;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.sobre_um_logo {
+    margin-top: 33px;
+    width: 500px;
+    transition: all 0.4s ease;
+}
+
+.sobre_um_logo:hover {
+    transform: scale(0.9);
+}
+
+.box_sobre_dois {
+    background-color: rgb(22, 133, 57);
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    
+}
+
+.sobre_dois {
+    margin-top: -25px;
+    padding: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin-left: 490px;
+}
+
+.sobre_dois_logo {
+    margin-top: -36px;
+    width: 500px;
+    margin-right: -480px;
+    transition: all 0.4s ease;
+}
+
+.sobre_dois_logo:hover{
+    transform: scale(0.9);
+}
+
+.box_sobre_tres {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(33, 155, 98);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 70px;
+}
+
+.beneficios {
+    margin-top: 25px;
+    padding-top: 140px;
+    height: 800px;
+}
+
+.box_um_maxter {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box_um_bene {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_um_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_um_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_um_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_um_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box_dois_bene {
+    width: 300px;
+    height: 150px;
+    margin-left: 55px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_dois_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_dois_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_dois_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_dois_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.box_tres_bene {
+    width: 300px;
+    height: 150px;
+    margin-left: 55px;
+    background-color: rgb(53, 134, 100);
+    border-radius: 15px;
+    height: 250px;
+    color: white;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.box_tres_bene:hover {
+    transform: scale(1.1);
+}
+
+.box_tres_bene img {
+    width: 40px;
+    margin-left: 40%;
+    filter: invert(100%);
+}
+
+.box_tres_maxter h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.box_tres_maxter p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+}
