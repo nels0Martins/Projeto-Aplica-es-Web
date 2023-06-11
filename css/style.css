@@ -1,7 +1,13 @@
+/* FONTES DO DOCUMENTO */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
+/*********************************************/
+
+
+/* ESTILOS INICIAIS E UNIVERSAIS */
 * {
     list-style: none;
     text-decoration: none;
@@ -17,6 +23,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/**************************************************/
+
+/* Header/nav do elemento preso ao topo! */
 
 .nave {
     position: fixed;
@@ -62,31 +72,6 @@ html {
 
 .logo img:hover {
     transform: scale(1.2);
-}
-
-.home {
-    margin-top: 250px;
-    margin-left: 70px;
-    justify-content: center;
-}
-
-.home_um {
-    display: flex;
-    justify-content: center;
-}
-
-.home h1 {
-    font-size:72px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(33, 123, 62);
-}
-
-.home h2 {
-    font-family: 'Poppins', sans-serif;
-    margin-top: -30px;
-    font-size:80px;
-    letter-spacing: 8px;
-    color: rgb(33, 123, 62);
 }
 
 .botoes {
@@ -141,32 +126,106 @@ html {
     background-color: rgb(14, 112, 38);
 }
 
+/**********************************************************************/
+
+/* Home com uma div simulando a mesma funcionalidade do aplicativo para celular*/
+
 .home {
-    display: flex;
+    background-image: url(../imgs/mulher-segurando-mapa.jpg);
+    background-size: 100%;
+    margin-bottom: -50px;
+    margin-top: 135px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 8px;
 }
 
-.img_home {
-    margin-top: -120px;
-    width: 480px;
+.box_home {
+    width: 360px;
+    height: 380px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 6px 16px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+}
+
+.box_home h2{
+    color: rgb(27, 85, 51);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box_home p {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.botoes2{
+    margin-top: 30px;
+}
+
+.botao_one button {
+    width: 320px;
+    height: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
+    font-weight: bold;
     transition: all 0.4s ease;
 }
 
-.img_home:hover {
-    transform: scale(0.9);
-}
-
-.para p {
+.botao_two button {
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid green;
+    background-color:rgba(167, 181, 171, 0.237);
+    color: rgb(33, 123, 62);
     font-weight: bold;
-    color: rgb(13, 103, 32);
-    margin-top: -80px;
-    margin-left: 80px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    transition: all 0.4s ease;
 }
 
-.sobre {
-    height: 900px;
+.botao_two button:hover, .botao_one button:hover {
+    transform: scale(1.1);
+}
+
+/************************************************************************/
+
+/* SOBRE - Expecificações da funcionalidade do aplicativo */
+
+.box_quatro_img {
+    background-image: url(../imgs/amigos-carona.jpg);
+    background-size: 100%;
+}
+
+.box_sobre_quatro {
     margin-top: 120px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 70px;
+    text-shadow: black 2px 2px 3px;
+    background-color: rgba(0, 0, 0, 0.493);
 }
 
 .box_sobre_um {
@@ -177,7 +236,7 @@ html {
 }
 
 .sobre_um {
-    padding-top: 123px !important;
+    padding-top: 90px !important;
     color: white;
     font-family: 'Raleway', sans-serif;
     width: 450px;
@@ -187,9 +246,10 @@ html {
 }
 
 .sobre_um_logo {
-    margin-top: 33px;
-    width: 500px;
+    margin-top: 23px;
+    width: 490px;
     transition: all 0.4s ease;
+    margin-bottom: 20px;
 }
 
 .sobre_um_logo:hover {
@@ -232,6 +292,8 @@ html {
     color: white;
     padding: 70px;
 }
+
+/* BOX de benéficios do aplicativo */
 
 .beneficios {
     padding-top: 140px;
@@ -374,6 +436,11 @@ html {
     font-size: 17px;
 }
 
+/************************************************************/
+
+
+/* Box simulando o link com a loja de aplicativos */
+
 .box_baixar {
     margin-top: 40px;
     display: flex;
@@ -460,6 +527,10 @@ html {
     background-color: rgb(14, 112, 38);
 }
 
+/*****************************************************************/
+
+/* RODAPÉ */
+
 .pezin {
     background-color: #4A4B4A;
     height: 350px;
@@ -530,3 +601,5 @@ html {
 .redes img:hover{
     transform: scale(1.2);
 }
+
+/****************************************************/
