@@ -6,5 +6,5 @@ Bem-vindo ao Rapidin, um aplicativo de carona compartilhada que permite que usu�
 # Instalação
 Faça o download do aplicativo Rapidin na loja de aplicativos do seu dispositivo. Siga as instruções de instalação e conclua o processo de configuração inicial.
 
-# Como usar:
+# Como usar
 <strong>Registro de Rotas Diárias:</strong> Após a instalação, registre suas rotas diárias no Rapidin, informando seu local de partida e destino, horários e frequência.
