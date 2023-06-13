@@ -1,0 +1,160 @@
+/* FONTES DO DOCUMENTO */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+/*********************************************/
+
+/* ESTILOS INICIAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ade2ad43;
+}
+
+body h1, h3 {
+    font-family: 'Poppins';
+}
+
+body p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/*********************************************/
+
+
+/* CABEÇALHO */
+header {
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: rgb(14, 112, 38);
+}
+
+.logo {
+    width: 135px;
+}
+
+/****************************/
+
+/* INTEGRANTES */
+.container {
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    border: 5px solid #6DD37D;
+    border-radius: 50px;
+    display: flex;
+}
+
+.nelson, .guilherme, .gabriel, .leticia {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    color: #3caa76; 
+}
+
+.container img {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 10px;
+    border: 5px solid #6DD37D;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+/****************************/
+
+/* TITULO DE COLABORADORES  */
+.col {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+
+/****************************/
+
+/* CONTAINER DE COLABORADORES */
+.container-col {
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    border: 5px solid #6DD37D;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.victor, .roseane {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-col a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-col a:hover {
+    color: #3caa76; 
+}
+
+.container-col img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 5px solid #6DD37D;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/***************************************/
+
+/* RODAPE DO DOCUMENTO */
+footer {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer span {
+    color: #6DD37D;
+    font-weight: 900;
+}
+
+footer span:hover {
+    color: #3caa76;
+}
+/*********************************************/
