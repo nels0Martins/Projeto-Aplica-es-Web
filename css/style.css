@@ -582,6 +582,10 @@ html {
     margin-left: 70%;
 }
 
+.social a {
+    margin-right: 20px;
+}
+
 .redes p {
     font-weight: 500;
     margin-left: 15%;
