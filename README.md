@@ -24,9 +24,6 @@ O Rapidin registra o contrato e garante que ambas as partes sejam notificadas so
 
 <strong>Avalie e Dê Feedback:</strong>Após cada carona compartilhada, lembre-se de avaliar a experiência e fornecer feedback. Isso ajudará a manter a qualidade da comunidade e permitirá que outros usuários tomem decisões informadas.
 
-# Contribuição 
-O Rapidin é um projeto de código aberto e estamos abertos a contribuições da comunidade. Se você deseja ajudar a melhorar o aplicativo, siga as diretrizes de contribuição disponíveis em nosso repositório no GitHub.
-
 # Licença
 Este projeto está licenciado sob a Licença MIT.
 
