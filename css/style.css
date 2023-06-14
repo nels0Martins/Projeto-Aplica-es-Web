@@ -448,18 +448,26 @@ html {
     background-color: rgba(67, 199, 89, 0.747);
     height: 650px;
 }
+.baixar-one-center {
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    align-self: center;
+    padding: 0;
+}
 
 .box_baixar_one img{
     margin-top: 120px;
-    width: 380px;
+    width: 500px;
+    height: 500px;
 }
 
 .box_baixar_two {
     margin-left: 80px;
     margin-top: 120px;
     background-color: rgb(255, 255, 255);
-    width: 350px;
-    height: 430px;
+    width: 320px;
+    height: 410px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: rgb(21, 51, 27) 2px 2px 16px;
