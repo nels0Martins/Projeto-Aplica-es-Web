@@ -20,9 +20,9 @@ Discuta os detalhes, como os dias da semana, horários e local de encontro.
 Ambos os usuários concordam com os termos e condições do contrato de carona.
 O Rapidin registra o contrato e garante que ambas as partes sejam notificadas sobre as caronas agendadas.
 
-<strong>Solicite Ajuda em Caso de Emergência: </strong>Se ocorrer algum problema com seu veículo, como uma quebra inesperada, você pode usar o Rapidin para enviar um alerta para a comunidade. Outros usuários próximos poderão responder e oferecer assistência.
+<strong>Solicite Ajuda em Caso de Emergência:</strong>Se ocorrer algum problema com seu veículo, como uma quebra inesperada, você pode usar o Rapidin para enviar um alerta para a comunidade. Outros usuários próximos poderão responder e oferecer assistência.
 
-<strong>Avalie e Dê Feedback: </strong>Após cada carona compartilhada, lembre-se de avaliar a experiência e fornecer feedback. Isso ajudará a manter a qualidade da comunidade e permitirá que outros usuários tomem decisões informadas.
+<strong>Avalie e Dê Feedback:</strong>Após cada carona compartilhada, lembre-se de avaliar a experiência e fornecer feedback. Isso ajudará a manter a qualidade da comunidade e permitirá que outros usuários tomem decisões informadas.
 
 # Contribuição 
 O Rapidin é um projeto de código aberto e estamos abertos a contribuições da comunidade. Se você deseja ajudar a melhorar o aplicativo, siga as diretrizes de contribuição disponíveis em nosso repositório no GitHub.
@@ -32,4 +32,6 @@ Este projeto está licenciado sob a Licença MIT.
 
 # Contato
 Se você tiver alguma dúvida, sugestão ou quiser relatar um problema, entre em contato conosco por meio dos seguintes canais:
+
+<strong>Facebook:</strong> link link 
 
