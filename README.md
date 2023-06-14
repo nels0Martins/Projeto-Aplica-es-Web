@@ -33,5 +33,6 @@ Este projeto está licenciado sob a Licença MIT.
 # Contato
 Se você tiver alguma dúvida, sugestão ou quiser relatar um problema, entre em contato conosco por meio dos seguintes canais:
 
-<strong>Facebook:</strong> link link 
+<strong>Facebook:</strong> https://rapidinfacebook.my.canva.site/facebookrapidin
+<strong>Instagram: </strong> https://rapidinfacebook.my.canva.site/instagramrapidin
 
